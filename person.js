@@ -1,0 +1,18 @@
+export default class Person {
+
+  id;
+  firstName;
+  lastName;
+  listOfPets = [];
+
+  constructor(id, firstName, lastName) {
+    this.id = id;
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+
+  getFullName() {
+    return this.firstName + " " + this.lastName;
+  }
+}
