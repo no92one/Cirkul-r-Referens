@@ -20,36 +20,6 @@ fs.writeFileSync("pets.json", JSON.stringify(petList, null, 2))
 
 console.log(petList[aPerson.listOfPets[0]]);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // const a = {};
 // const b = { a };
 // a.b = b;
